@@ -1,4 +1,3 @@
-```python
 # -*- coding: utf-8 -*-
 """DAY4_malefemale.ipynb"""
 
@@ -147,7 +146,6 @@ if uploaded_file is not None:
 
     st.markdown("---")
 
-    # Prediction
     if prediction == 0:
         st.success("## 🚺 Prediction : Female")
         st.balloons()
@@ -210,4 +208,3 @@ Made with ❤️ using <b>Python</b>, <b>Scikit-Learn</b> and <b>Streamlit</b><b
 © 2026 Female vs Male Image Classifier
 </div>
 """, unsafe_allow_html=True)
-```
